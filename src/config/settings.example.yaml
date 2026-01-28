@@ -1,0 +1,25 @@
+# Copy this to settings.yaml and fill in your values
+
+monitoring:
+  update_interval: 60
+
+alert_thresholds:
+  cpu_percent: 85
+  memory_percent: 90
+
+notification:
+  email_enabled: false
+  # Fill in your email settings if enabling
+  email_server: "smtp.gmail.com"
+  email_port: 587
+  email_username: "your-email@gmail.com"
+  email_password: "your-app-password"
+  
+  slack_enabled: false
+  # Fill in your Slack webhook if enabling
+  slack_webhook: "https://hooks.slack.com/services/XXX/XXX/XXX"
+
+dashboard:
+  host: "0.0.0.0"
+  port: 5000
+  debug: true

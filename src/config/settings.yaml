@@ -1,0 +1,30 @@
+# Home Lab Security Monitor Configuration
+
+monitoring:
+  update_interval: 60  # seconds
+  retention_days: 30
+  max_log_size_mb: 100
+
+alert_thresholds:
+  cpu_percent: 85
+  memory_percent: 90
+  disk_percent: 80
+  failed_logins: 5
+  port_scans: 20
+
+notification:
+  email_enabled: false
+  email_server: "smtp.gmail.com"
+  email_port: 587
+  email_username: "your-email@gmail.com"
+  email_password: "your-password"
+  email_from: "your-email@gmail.com"
+  email_to: "admin@example.com"
+  
+  slack_enabled: false
+  slack_webhook: "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+
+dashboard:
+  host: "0.0.0.0"
+  port: 5000
+  debug: true
