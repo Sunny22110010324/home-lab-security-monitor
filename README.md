@@ -128,3 +128,4 @@ Latest: Most recent CPU, Memory, Disk readings
 Total alerts: Number of security alerts generated
 
 Database accessible: Confirms database is working
+
