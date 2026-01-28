@@ -42,29 +42,7 @@ pip install psutil flask
 Terminal 1: Start the Monitor
 python run_monitor.py
 
-Expected Output:
-==================================================
-Home Lab Security Monitor
-==================================================
-Setting up database...
-✅ Database ready
 
-🚀 Starting monitoring...
-Press Ctrl+C to stop
-
-📊 Cycle 1 - 14:58:05
-  CPU: 21.7%
-  Memory: 85.3%
-  Disk: 99.9%
-  🚨 HIGH Memory Alert: 85.3%
-  🚨 CRITICAL Disk Alert: 99.9%
-
-📊 Cycle 2 - 14:58:15
-  CPU: 18.2%
-  Memory: 85.1%
-  Disk: 99.9%
-  🚨 HIGH Memory Alert: 85.1%
-  🚨 CRITICAL Disk Alert: 99.9%
 
   Output Explanation:
 
