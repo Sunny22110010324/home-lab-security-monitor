@@ -22,7 +22,7 @@ A comprehensive cybersecurity project that monitors system health, detects anoma
 - Windows/Linux/Mac OS
 
 ### Output Verification
-```bash
+
 # Clone or download the project
 cd home-lab-security-monitor
 
