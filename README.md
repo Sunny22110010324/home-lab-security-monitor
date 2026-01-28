@@ -21,7 +21,7 @@ A comprehensive cybersecurity project that monitors system health, detects anoma
 - Python 3.8 or higher
 - Windows/Linux/Mac OS
 
-### Installation
+### Output Verification
 ```bash
 # Clone or download the project
 cd home-lab-security-monitor
