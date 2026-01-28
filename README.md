@@ -38,6 +38,9 @@ source venv/bin/activate
 # Install dependencies
 pip install psutil flask
 
+
+
+
 📊 Running the System
 Terminal 1: Start the Monitor
 python run_monitor.py
@@ -80,6 +83,9 @@ Disk: XX.X%: Current disk usage percentage
 
 Press Ctrl+C to stop monitoring
 
+
+
+
 Terminal 2: Start the Dashboard
 cd src
 python dashboard.py
@@ -93,6 +99,8 @@ Expected Output:
 WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
+
+
 
 Terminal 3: Check Database
 # Method 1: Using check_db_simple.py
